@@ -3,7 +3,8 @@
 
 
 # ❓ Why's of the project:
-### 🤔 I think it is grate of understanding the basic level of a fully funcitional app. How a UI connects with the server, then the DB an viceversa.
+### 🤔 The main reason was to make a tool that the community can use, I think that this app can be useful inside work IT organization. It is a tool that can help other developers and teams to manage the bugs that they have to solve every day.
+### Even I used this when i was developing it!
 ### 🚀 It is great to develop programming skills and go deeper in the back-end. Not only to play with ReactJS. I think front-end is beautiful but a simple MERN application like this is a YES overall to practicing.
 
 # 👓 Explaining the project:
