@@ -60,6 +60,33 @@ describe("Issue Tracker", () => {
         
     });
 
+    it("The form can be written, be sent and return to dashboard and then delete the issues", () => {
+        cy.contains("Add new issue").click()
+        cy.get("input").eq(0).type("Some developer")
+        cy.get("input").eq(1).type("Some priority")
+        cy.get("input").eq(2).type("Some description")
+        cy.get("Button").eq(1).click()
+        cy.contains("Added issue")
+        cy.contains("Understood").click()
+        cy.get("button").eq(2).click()
+        cy.contains("Delete").click()
+        cy.contains("Delete").click()
+        cy.contains("Delete").click()
+        
+        
+    });
+
+    it("Re-visit the page and the issues can be seen", () => {
+        cy.visit("http://localhost:3001/")
+        cy.contains("Delete")
+
+    });
+
+    it("The page contains the footer", () => {
+        cy.contains("Benjamin Bascary 2022")
+    })
+
+
 });
 
 
