@@ -86,6 +86,9 @@ describe("Issue Tracker", () => {
         cy.contains("Benjamin Bascary 2022")
     })
 
+    it("The page shows logo and title", () => {
+        cy.contains("Issue Tracker")
+    })
 
 });
 
