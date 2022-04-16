@@ -19,7 +19,7 @@
 
 # 📚 Technology.
 ### ReactJS, express, mongodb and node. For integration tests I used Cypress.
-<img src="images/icons.png">
+<img src="images/logos.png">
 
 # 🧰 Other tools I used aside from the main tech:
 ### 1 - Bootstrap
