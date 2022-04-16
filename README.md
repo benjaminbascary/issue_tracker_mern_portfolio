@@ -1,4 +1,9 @@
+# Why's of the project:
+### 🤔 I think it is grate of understanding the basic level of a fully funcitional app. How a UI connects with the server, then the DB an viceversa.
+### 🚀 It is great to develop programming skills and go deeper in the back-end. Not only play with ReactJS.
+
+
 # 👓 Explaining the project:
-### This project is very simple. Consists in a handler which controls every aspect of the app.
-### Then we have the requests module who makes the http's and only that. Finally the user_interface
-### module explains by itself: just show the data onto the screen.
+### 
+### 
+### 
